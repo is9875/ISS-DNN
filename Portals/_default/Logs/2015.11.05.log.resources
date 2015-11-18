@@ -1,0 +1,92 @@
+2015-11-05 13:31:06,753 [MININT-M32SFL6][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpCompileException: c:\websites\dnndev.me\Portals\_default\Skins\dnnskin\default.ascx(23): error CS1026: ) expected
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-11-05 13:31:14,420 [MININT-M32SFL6][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpCompileException: c:\websites\dnndev.me\Portals\_default\Skins\dnnskin\default.ascx(23): error CS1026: ) expected
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-11-05 13:31:15,180 [MININT-M32SFL6][Thread:7][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Modules.HtmlEditorManager.Presenters.ProviderConfigurationPresenter.LoadCurrentEditor(String editorName)
+   at DotNetNuke.Modules.HtmlEditorManager.Presenters.ProviderConfigurationPresenter.View_Initialize(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at DotNetNuke.Web.Mvp.ModuleViewBase.PageInitComplete(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnInitComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-11-05 13:31:15,187 [MININT-M32SFL6][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Modules.HtmlEditorManager.Presenters.ProviderConfigurationPresenter.LoadCurrentEditor(String editorName)
+   at DotNetNuke.Modules.HtmlEditorManager.Presenters.ProviderConfigurationPresenter.View_Initialize(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at DotNetNuke.Web.Mvp.ModuleViewBase.PageInitComplete(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnInitComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-11-05 13:31:15,224 [MININT-M32SFL6][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpCompileException: c:\websites\dnndev.me\Portals\_default\Skins\dnnskin\default.ascx(23): error CS1026: ) expected
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-11-05 13:31:17,826 [MININT-M32SFL6][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpCompileException: c:\websites\dnndev.me\Portals\_default\Skins\dnnskin\default.ascx(23): error CS1026: ) expected
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-11-05 13:31:24,725 [MININT-M32SFL6][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpCompileException: c:\websites\dnndev.me\Portals\_default\Skins\dnnskin\default.ascx(23): error CS1026: ) expected
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-11-05 13:31:25,428 [MININT-M32SFL6][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Unhandled error loading page. ---> System.Web.HttpCompileException: c:\websites\dnndev.me\Portals\_default\Skins\dnnskin\default.ascx(23): error CS1026: ) expected
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Skins.Skin.LoadSkin(PageBase page, String skinPath)
+   --- End of inner exception stack trace ---
+2015-11-05 14:01:19,998 [MININT-M32SFL6][Thread:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Modules.HtmlEditorManager.Presenters.ProviderConfigurationPresenter.LoadCurrentEditor(String editorName)
+   at DotNetNuke.Modules.HtmlEditorManager.Presenters.ProviderConfigurationPresenter.View_Initialize(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at DotNetNuke.Web.Mvp.ModuleViewBase.PageInitComplete(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnInitComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2015-11-05 14:01:20,002 [MININT-M32SFL6][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Modules.HtmlEditorManager.Presenters.ProviderConfigurationPresenter.LoadCurrentEditor(String editorName)
+   at DotNetNuke.Modules.HtmlEditorManager.Presenters.ProviderConfigurationPresenter.View_Initialize(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at DotNetNuke.Web.Mvp.ModuleViewBase.PageInitComplete(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnInitComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

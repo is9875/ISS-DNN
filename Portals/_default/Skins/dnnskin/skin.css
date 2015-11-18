@@ -1,0 +1,185 @@
+﻿/*-----DNN Menu Bar Styles-----*/
+
+#ControlBar, #ControlBar *, .actionMenu * {-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+
+/*-----Page Styles-----*/
+
+html {width:100%;height:100%;}
+
+a, 
+a:active,
+a:visited,
+a:focus {
+	color:#fff;
+}
+
+p {color:#fff;}
+
+
+/*-----Header and Navbar Styles-----*/
+header{
+	//background-image: url('/Portals/_default/Skins/dnnskin/images/header_bg.jpg');
+	min-height:1055px;
+}
+.navbar {min-height:171px;}
+
+.navbar li {font-size:20px;}
+
+#navbar {
+	padding: 25px 0 0 0;
+}
+
+header .nav>li>a {
+	padding:15px 69px 15px 0;
+}
+
+header .nav>li:last-child>a {
+  padding-right:0;
+}
+
+.navbar .iss_logo {
+	padding-top:53px;
+}
+
+.socials {
+  overflow: hidden;
+  margin: 0;
+  padding: 35px 0 0 0;
+}
+.socials li {
+  float: left;
+  list-style: none outside none;
+}
+.socials li + li {
+  margin-left: 33px;
+}
+.socials li a {
+  border: 0;
+}
+.socials li img {
+	height:18px;
+}
+
+/*-----Footer Styles-----*/
+footer {
+	min-height:480px;
+	background-color:#000;
+    background-image: url('/Portals/_default/Skins/dnnskin/images/texture_2x2.jpg');
+}
+
+footer ul {list-style:none;}
+
+footer ul li a, #footerbottom a {cursor:pointer;}
+
+footer ul li.footersection {font-weight:bold;font-size:18px;padding-bottom:4px;color:#fff;}
+
+#footertop .footercolumn {min-height:200px;max-height:250px;}
+
+
+#footertop .footerlink {
+	font-size:15px;
+	padding: 4px 0;
+    line-height: 19px;
+}
+
+#footertop,#footerbottom {padding-top:77px;padding-bottom:7px;}
+
+#footerbottom * {font-size:12px;}
+
+@media (max-width:992px) {
+	#footerbottom {text-align:center;}
+}
+
+/*-----Bootstrap override Styles-----*/
+@media (min-width:1600px){
+	.container{
+		width:1600px;
+	}
+}
+
+.container-fluid {
+	padding:0;
+}
+
+/*-----Content Styles-----*/
+.textureWhite {
+	background-image: url('/Portals/_default/Skins/dnnskin/images/texture2_16x16.png');
+}
+
+.overlayTransparent {
+	background-color:rgb(0, 0, 0, 0.4);
+	background-color:rgba(0, 0, 0, 0.4);
+}
+.textureBlack{
+	background-image: url('/Portals/_default/Skins/dnnskin/images/texture_2x2.jpg');
+}
+.paneSeven {
+	background-image: url('/Portals/_default/Skins/dnnskin/images/client.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	width:inherit;
+	height:800px;
+}
+
+.paneEight{
+	background-color:rgb(0, 0, 0, 0.6);
+	background-color:rgba(0, 0, 0, 0.6);
+}
+
+
+/*
+#pagecontent {width:100%}
+#pagecontent {padding-top:50px;}
+*/
+
+/* video background */
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('http://www.cloudraker.com/video/Home_cover.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+/* end video background */
+
+
+
+.parallax-container {
+  height: 500px;
+  width: 100%;
+}
+
